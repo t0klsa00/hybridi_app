@@ -1,4 +1,5 @@
-const data = require('./data.json')
+const restaurants = require('./restaurants.json')
+const menus = require('./menus.json')
 
 const express = require('express')
 const app = express()
@@ -29,7 +30,15 @@ app.use(express.static(path.join(__dirname, 'build')))
 app.use(express.static(path.join(__dirname, 'build')))*/
 
 app.get('/', (req, res) => {
-    res.send(data)
+  res.send("Home")
+});
+
+app.get('/restaurants', (req, res) => {
+    res.send(restaurants)
+  });
+
+  app.get('/menus', (req, res) => {
+    res.send(menus)
   });
 
 /*
