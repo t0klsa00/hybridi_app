@@ -27,7 +27,7 @@ app.use(express.static(path.join(__dirname, 'build')))
 app.use(express.static(path.join(__dirname, 'build')))*/
 
 app.get('/', (req, res) => {
-    res.send('helloo')
+    res.send('[{"name": "Pabblos Nachos","address": "Example Road 12"]}')
   });
 
 /*
