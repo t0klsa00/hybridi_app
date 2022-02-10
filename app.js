@@ -4,7 +4,7 @@ const port = process.env.PORT
 /*
 const models = require('./models.js')
 */
-//  app.use(express.json())
+ app.use(express.json())
 
 // Kommaa jos teet lokaalisti:
 /*
@@ -52,7 +52,7 @@ app.post('/menu', (req, res) => {
       res.status(500).send(error);
     })
   })
-
+*/
   app.listen(port, () =>
   console.log(`App listening on port ${port}`),
-);*/
+);
