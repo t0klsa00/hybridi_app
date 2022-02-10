@@ -1,9 +1,6 @@
 const express = require('express')
 const app = express()
 const port = process.env.PORT || 8000
-const path = require('path')
-const cors = require('cors')
-app.use(cors())
 /*
 const models = require('./models.js')
 */
@@ -30,7 +27,7 @@ app.use(express.static(path.join(__dirname, 'build')))
 app.use(express.static(path.join(__dirname, 'build')))*/
 
 app.get('/', (req, res) => {
-    return ('helloo')
+    res.send('helloo')
   });
 
 /*
