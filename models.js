@@ -1,20 +1,20 @@
-const { Client } = require('pg')
+/*const { Client } = require('pg')
 const client = new Client({
   // kommaa jos teet lokaalisti
- /* connectionString: process.env.DATABASE_URL,
+  connectionString: process.env.DATABASE_URL,
   ssl: {
     rejectUnauthorized: false
-}*/
+}
 
-//unkommaa jos teet lokaalisti
+unkommaa jos teet lokaalisti
 user: 'local_u',
   host: 'localhost',
   database: 'restaurant_menu_db',
   password: '1234',
   port: 5432,
 });
-
-
+*/
+/*
 client.connect()
 
 const getRestaurants = () => {
@@ -45,4 +45,4 @@ const getRestaurants = () => {
   module.exports = {
     getRestaurants,
     getMenuById
-  }
+  }*/

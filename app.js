@@ -4,9 +4,9 @@ const port = process.env.PORT || 8000
 const path = require('path')
 const cors = require('cors')
 app.use(cors())
-
+/*
 const models = require('./models.js')
-
+*/
 //  app.use(express.json())
 
 // Kommaa jos teet lokaalisti:
@@ -33,7 +33,7 @@ app.get('/', (req, res) => {
     res.send('helloo')
   });
 
-
+/*
 app.get('/restaurants', (req, res) => {
     console.log('api')
   models.getRestaurants()
@@ -58,4 +58,4 @@ app.post('/menu', (req, res) => {
 
   app.listen(port, () =>
   console.log(`App listening on port ${port}`),
-);
+);*/
