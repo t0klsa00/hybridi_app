@@ -1,7 +1,16 @@
+[
     {
       "restaurant_id": 1,
       "name": "Pabblos Nachos",
       "address": "Example Road 12",
       "conn_id": 1,
       "image": "no_image"
-    }
+    },
+    {
+        "restaurant_id": 2,
+        "name": "Kallen Kahvila",
+        "address": "Road Street 0",
+        "conn_id": 2,
+        "image": "no_image"
+      }
+  ]
