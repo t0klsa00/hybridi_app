@@ -1,3 +1,5 @@
+const data = require('./data.json')
+
 const express = require('express')
 const app = express()
 const port = process.env.PORT
@@ -27,7 +29,7 @@ app.use(express.static(path.join(__dirname, 'build')))
 app.use(express.static(path.join(__dirname, 'build')))*/
 
 app.get('/', (req, res) => {
-    res.send('[{"name": "Pabblos Nachos","address": "Example Road 12"]}')
+    res.send(data)
   });
 
 /*

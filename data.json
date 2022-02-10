@@ -1,0 +1,9 @@
+[
+    {
+      "restaurant_id": 1,
+      "name": "Pabblos Nachos",
+      "address": "Example Road 12",
+      "conn_id": 1,
+      "image": "no_image"
+    }
+  ]
