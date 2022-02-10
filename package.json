@@ -1,5 +1,8 @@
 {
   "dependencies": {
-    "epress": "^0.0.1-security"
+    "cors": "^2.8.5",
+    "epress": "^0.0.1-security",
+    "express": "^4.17.2",
+    "pg": "^8.7.3"
   }
 }
