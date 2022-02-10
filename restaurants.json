@@ -12,5 +12,19 @@
         "address": "Road Street 0",
         "conn_id": 2,
         "image": "no_image"
-      }
+      },
+      {
+          "restaurant_id": 3,
+          "name": "Maijun Maitotila",
+          "address": "Street Way 111",
+          "conn_id": 3,
+          "image": "no_image"
+        },
+        {
+            "restaurant_id": 4,
+            "name": "Luke's Diner",
+            "address": "Peach Street 1",
+            "conn_id": 4,
+            "image": "no_image"
+          }
   ]
