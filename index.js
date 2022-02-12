@@ -8,7 +8,26 @@ const port = process.env.PORT
 const models = require('./models.js')
 */
  app.use(express.json())
-header("Access-Control-Allow-Origin: *");
+
+// Kommaa jos teet lokaalisti:
+/*
+app.use(express.static(path.join(__dirname, 'build')))
+  app.get('/', (req, res) => {
+    res.sendFile(path.resolve(__dirname, 'build', 'index.html'));
+  })
+*/
+ 
+
+/*
+  //  UNCOMMAA TÄMÄ JOS DEVAAT LOKAALISTI
+  app.use(function (req, res, next) {
+  //res.setHeader('Access-Control-Allow-Origin', 'http://10.0.2.2:8000:54340');
+  res.setHeader('Access-Control-Allow-Methods', 'GET,POST,PUT,DELETE,OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Access-Control-Allow-Headers');
+  next();
+});
+/*
+app.use(express.static(path.join(__dirname, 'build')))*/
 
 app.get('/', (req, res) => {
   res.send("Home")
