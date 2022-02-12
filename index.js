@@ -37,8 +37,8 @@ app.get('/restaurants', (req, res) => {
     res.send(restaurants)
   });
 
-  app.get('/restaurants/:id', (req, res) => {
-    res.send(restaurants+req.params.id)
+  app.get('/menus/:id', (req, res) => {
+    res.send(menus[req.params.id])
   });
 
   app.get('/menus', (req, res) => {
