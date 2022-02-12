@@ -11,20 +11,20 @@
         "name": "Kallen Kahvila",
         "address": "Road Street 0",
         "conn_id": 1,
-        "image": "https://public.keskofiles.com/f/recipe/KR16_5_nachossuprem?w=2400&fit=crop"
+        "image": "https://sipa.s-palvelut.fi/?url=https%3A%2F%2Flaari.sok.fi%2Fdocuments%2F624994%2F1131083%2Fcoffee-2565441_1920.jpg%2F085d43db-f95a-4207-9229-81ac097da89a%3Ft%3D1591168674000&maxWidth=200&highDensity=true&checksum=b8a74145e279ac6d8f0071e61e42e8de"
       },
       {
           "restaurant_id": 2,
           "name": "Maijun Maitotila",
           "address": "Street Way 111",
           "conn_id": 2,
-          "image": "https://public.keskofiles.com/f/recipe/KR16_5_nachossuprem?w=2400&fit=crop"
+          "image": "https://ychef.files.bbci.co.uk/624x351/p07vvrpj.jpg"
         },
         {
             "restaurant_id": 3,
             "name": "Luke's Diner",
             "address": "Peach Street 1",
             "conn_id": 3,
-            "image": "https://public.keskofiles.com/f/recipe/KR16_5_nachossuprem?w=2400&fit=crop"
+            "image": "https://www.etonline.com/sites/default/files/styles/max_970x546/public/images/2016-10/1280_luke_diner.jpg?itok=A3AhGn50"
           }
   ]
