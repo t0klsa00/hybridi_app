@@ -26,47 +26,5 @@
             "address": "Peach Street 1",
             "conn_id": 3,
             "image": "https://www.etonline.com/sites/default/files/styles/max_970x546/public/images/2016-10/1280_luke_diner.jpg?itok=A3AhGn50"
-          },
-          {
-              "restaurant_id": 3,
-              "name": "Luke's Diner",
-              "address": "Peach Street 1",
-              "conn_id": 3,
-              "image": "https://www.etonline.com/sites/default/files/styles/max_970x546/public/images/2016-10/1280_luke_diner.jpg?itok=A3AhGn50"
-            },
-            {
-                "restaurant_id": 3,
-                "name": "Luke's Diner",
-                "address": "Peach Street 1",
-                "conn_id": 3,
-                "image": "https://www.etonline.com/sites/default/files/styles/max_970x546/public/images/2016-10/1280_luke_diner.jpg?itok=A3AhGn50"
-              },
-              {
-                  "restaurant_id": 3,
-                  "name": "Luke's Diner",
-                  "address": "Peach Street 1",
-                  "conn_id": 3,
-                  "image": "https://www.etonline.com/sites/default/files/styles/max_970x546/public/images/2016-10/1280_luke_diner.jpg?itok=A3AhGn50"
-                },
-                {
-                    "restaurant_id": 3,
-                    "name": "Luke's Diner",
-                    "address": "Peach Street 1",
-                    "conn_id": 3,
-                    "image": "https://www.etonline.com/sites/default/files/styles/max_970x546/public/images/2016-10/1280_luke_diner.jpg?itok=A3AhGn50"
-                  },
-                  {
-                      "restaurant_id": 3,
-                      "name": "Luke's Diner",
-                      "address": "Peach Street 1",
-                      "conn_id": 3,
-                      "image": "https://www.etonline.com/sites/default/files/styles/max_970x546/public/images/2016-10/1280_luke_diner.jpg?itok=A3AhGn50"
-                    },
-                    {
-                        "restaurant_id": 3,
-                        "name": "Luke's Diner",
-                        "address": "Peach Street 1",
-                        "conn_id": 3,
-                        "image": "https://www.etonline.com/sites/default/files/styles/max_970x546/public/images/2016-10/1280_luke_diner.jpg?itok=A3AhGn50"
-                      }
+          }
   ]
