@@ -4,27 +4,27 @@
       "name": "Pabblos Nachos",
       "address": "Example Road 12",
       "conn_id": 0,
-      "image": "no_image"
+      "image": "https://public.keskofiles.com/f/recipe/KR16_5_nachossuprem?w=2400&fit=crop"
     },
     {
         "restaurant_id": 1,
         "name": "Kallen Kahvila",
         "address": "Road Street 0",
         "conn_id": 1,
-        "image": "no_image"
+        "image": "https://public.keskofiles.com/f/recipe/KR16_5_nachossuprem?w=2400&fit=crop"
       },
       {
           "restaurant_id": 2,
           "name": "Maijun Maitotila",
           "address": "Street Way 111",
           "conn_id": 2,
-          "image": "no_image"
+          "image": "https://public.keskofiles.com/f/recipe/KR16_5_nachossuprem?w=2400&fit=crop"
         },
         {
             "restaurant_id": 3,
             "name": "Luke's Diner",
             "address": "Peach Street 1",
             "conn_id": 3,
-            "image": "no_image"
+            "image": "https://public.keskofiles.com/f/recipe/KR16_5_nachossuprem?w=2400&fit=crop"
           }
   ]
