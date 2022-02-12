@@ -1,19 +1,22 @@
 [
 [
-  {"name": "Kahvi", "price": "2.90€", "id": 1},
-  {"name": "Kaakao", "price": "2.90€", "id": 1}
+  {"name": "Plain Nachos", "price": "2.90€", "id": 0},
+  {"name": "Nachos + Beer", "price": "5.90€", "id": 0},
+  {"name": "Cheese nachos", "price": "4.90€", "id": 0}
 ],
 [
-  {"name": "Maito", "price": "2.90€", "id": 1},
-  {"name": "Piimä", "price": "2.90€", "id": 2},
-  {"name": "Nachos + dip", "price": "2.90€", "id": 2}
+  {"name": "Coffee with milk or cream", "price": "2.90€", "id": 1},
+  {"name": "Biscuit", "price": "1.90€", "id": 1},
+  {"name": "Piece of cake", "price": "5.90€", "id": 1}
 ],
 [
-  {"name": "Nachos + Beer", "price": "2.90€", "id": 2},
-  {"name": "Nachos", "price": "2.90€", "id": 3}
+  {"name": "Milk", "price": "1.90€", "id": 2},
+  {"name": "Milk Cheese", "price": "10.90€", "id": 2}
 ],
 [
-  {"name": "Beer", "price": "2.90€", "id": 3},
-  {"name": "Tonnikalasalaatti", "price": "2.90€", "id": 3}
+  {"name": "Cake", "price": "10.90€", "id": 3},
+  {"name": "Croissants", "price": "12.90€", "id": 3},
+  {"name": "Borridge", "price": "4.50€", "id": 3},
+  {"name": "Egg salad", "price": "9.90€", "id": 3}
 ]
   ]

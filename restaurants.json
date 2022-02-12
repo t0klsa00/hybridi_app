@@ -1,30 +1,30 @@
 [
     {
-      "restaurant_id": 1,
+      "restaurant_id": 0,
       "name": "Pabblos Nachos",
       "address": "Example Road 12",
-      "conn_id": 1,
+      "conn_id": 0,
       "image": "no_image"
     },
     {
-        "restaurant_id": 2,
+        "restaurant_id": 1,
         "name": "Kallen Kahvila",
         "address": "Road Street 0",
-        "conn_id": 2,
+        "conn_id": 1,
         "image": "no_image"
       },
       {
-          "restaurant_id": 3,
+          "restaurant_id": 2,
           "name": "Maijun Maitotila",
           "address": "Street Way 111",
-          "conn_id": 3,
+          "conn_id": 2,
           "image": "no_image"
         },
         {
-            "restaurant_id": 4,
+            "restaurant_id": 3,
             "name": "Luke's Diner",
             "address": "Peach Street 1",
-            "conn_id": 4,
+            "conn_id": 3,
             "image": "no_image"
           }
   ]
