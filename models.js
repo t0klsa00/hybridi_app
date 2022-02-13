@@ -20,8 +20,9 @@ const getRestaurants = () => {
 
   const getMenuById = (conn_id) => {
     return new Promise(function(resolve, reject) {
+      console.log(conn_id)
       const { id } = conn_id
-      console.log(id)
+      console.log("id"+id)
       client.query("SELECT * FROM menus WHERE conn_id = $1", [id], (error, results) => {
         if (error) {
           reject(error)
