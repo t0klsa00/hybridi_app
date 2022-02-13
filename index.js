@@ -42,7 +42,7 @@ app.get('/restaurants', (req, res) => {
 })
 
   app.get('/menus/:id', (req, res) => {
-    models.getMenuById(req.body)
+    models.getMenuById(req.params.id)
   .then(response => {
     res.status(200).send(response);
   })
