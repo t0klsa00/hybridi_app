@@ -18,10 +18,9 @@ const getRestaurants = () => {
     }) 
   }
 
-  const getMenuById = (body) => {
+  const getMenuById = (conn_id) => {
     return new Promise(function(resolve, reject) {
-      body = JSON.parse(JSON.stringify(body[0]))
-      const { id } = body
+      const { id } = conn_id
       client.query("SELECT * FROM menus WHERE conn_id = $1", [id], (error, results) => {
         if (error) {
           reject(error)
