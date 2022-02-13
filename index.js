@@ -18,11 +18,9 @@ app.use(express.static(path.join(__dirname, 'build')))
 */
  
 
-/*
-  //  UNCOMMAA TÄMÄ JOS DEVAAT LOKAALISTI
   app.use(function (req, res, next) {
-  //res.setHeader('Access-Control-Allow-Origin', 'http://10.0.2.2:8000:54340');
-  res.setHeader('Access-Control-Allow-Methods', 'GET,POST,PUT,DELETE,OPTIONS');
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Access-Control-Allow-Headers');
   next();
 });
