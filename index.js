@@ -42,8 +42,8 @@ app.get('/restaurants', (req, res) => {
 })
 
   app.get('/menus/:id', (req, res) => {
-    models.getMenuById(req.params.id)
     console.log(req.params.id)
+    models.getMenuById(req.params.id)
   .then(response => {
     res.status(200).send(response);
   })
