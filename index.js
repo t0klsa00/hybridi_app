@@ -4,9 +4,9 @@ const menus = require('./menus.json')
 const express = require('express')
 const app = express()
 const port = process.env.PORT
-/*
+
 const models = require('./models.js')
-*/
+
  app.use(express.json())
 
 // Kommaa jos teet lokaalisti:
@@ -32,8 +32,14 @@ app.get('/', (req, res) => {
 });
 
 app.get('/restaurants', (req, res) => {
-    res.send(restaurants)
-  });
+  models.getRestaurants()
+  .then(response => {
+    res.status(200).send(response);
+  })
+  .catch(error => {
+    res.status(500).send(error);
+  })
+})
 
   app.get('/menus/:id', (req, res) => {
     res.send(menus[req.params.id])
